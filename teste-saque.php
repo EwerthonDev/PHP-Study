@@ -1,5 +1,7 @@
 <?php
 
+//arquivo pra teste das classes e métodos
+
 use Estudo\Banco\Modelo\Conta\{Conta, ContaPoupanca, ContaCorrente, Titular};
 use Estudo\Banco\Modelo\{CPF, Endereco};
 

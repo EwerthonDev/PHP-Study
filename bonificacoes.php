@@ -21,6 +21,6 @@ $umaFuncionaria = new Diretor(
 );
 
 $controlador = new ControladorDeBonificacoes();
-//$controlador->adicionaBonificacaoDe($umFuncionario);
+$controlador->adicionaBonificacaoDe($umFuncionario);
 $controlador->adicionaBonificacaoDe($umaFuncionaria);
 var_dump($controlador);

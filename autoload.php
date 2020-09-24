@@ -1,5 +1,5 @@
 <?php
-
+// Autoloader funcionando
 spl_autoload_register(function (string $nomeCompletoDaClasse) {
     $caminhoArquivo = str_replace('Estudo\\Banco', 'src', $nomeCompletoDaClasse);
     $caminhoArquivo = str_replace('\\', DIRECTORY_SEPARATOR, $caminhoArquivo);
