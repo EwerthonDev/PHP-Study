@@ -8,7 +8,7 @@ use Estudo\Banco\Modelo\Endereco;
 
 class Titular extends Pessoa
 {
-    private $endereco;
+    private Endereco $endereco;
 
     public function __construct(CPF $cpf, string $nome, Endereco $endereco)
     {

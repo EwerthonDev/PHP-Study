@@ -4,7 +4,7 @@ namespace Estudo\Banco\Modelo;
 
 class CPF
 {
-    private $numero;
+    private string $numero;
 
     public function __construct(string $numero)
     {

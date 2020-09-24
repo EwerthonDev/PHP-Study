@@ -4,8 +4,8 @@ namespace Estudo\Banco\Modelo;
 
 abstract class Pessoa
 {
-    protected $nome;
-    private $cpf;
+    protected string $nome;
+    private CPF $cpf;
 
     public function __construct(string $nome, CPF $cpf)
     {
